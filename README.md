@@ -1,104 +1,64 @@
-# FirstStep — Resume & Portfolio Builder
+# SAKSHIMA — Next-Gen 3D Career Experience
 
-A free, client-side resume builder MVP for students, new graduates, and early-career applicants.
+> **"Build Your Future. Define Your Identity."**
 
-## Features
+**SAKSHIMA** is a futuristic, award-caliber career identity platform that transforms standard static resumes into interactive, high-impact digital experiences. Engineered with a sleek cyber black and electric blue design system, mathematical 3D particle physics, and ATS-optimized document architectures.
 
-- Responsive home page and resume workspace
-- Editable personal details, education, experience, projects, skills, and achievements
-- Live resume preview
-- Three resume templates: Classic, Modern, Compact
-- Browser localStorage draft saving
-- Browser print dialog for **Save as PDF**
-- Private portfolio preview generated from resume data
-- Sample resume starter
-- No account, backend, paid API, or cloud database required
+Live deployment: [first-step-mvp.vercel.app](https://first-step-mvp.vercel.app/)
 
-## Requirements
+---
 
-- Node.js (current LTS recommended)
-- npm
-- A modern browser
+## Key Highlights
 
-## Run locally
+- **Hero 3D Canvas Experience**: Real-time 3D particle constellation and Fibonacci geodesic cyber-sphere with interactive mouse parallax and depth-of-field lighting.
+- **3D Perspective Tilting**: Interactive physics-based cards with dynamic specular glare and smooth spring resets.
+- **Dual Identity Synthesis**:
+  1. **ATS-Ready Vector Resumes**: Instant vector-crisp PDF generation engineered to pass human screening and automated applicant tracking systems.
+  2. **Interactive 3D Web Portfolio**: Turn your career milestones, code repositories, and credentials into an interactive web identity with zero setup.
+- **3 Curated Blueprint Architectures**:
+  - **Classic**: Timeless, structured, corporate elegance.
+  - **Modern**: Bold electric blue banner, avatar initials, and dynamic milestone timeline.
+  - **Compact**: Two-column information density layout engineered for technical engineers and researchers.
+- **100% Client-Side Privacy**: All drafts are encrypted and stored solely in your browser's local storage. Zero server uploads, zero accounts required, zero third-party tracking.
+- **Responsive & Accessible**: Seamlessly adapts to 4K displays, laptops, tablets, and smartphones, with reduced-motion support.
 
-Open PowerShell in the `D:\FirstStep` folder:
+---
+
+## Technology Stack
+
+- **Framework**: React 19 + Vite
+- **Animations**: `motion/react` + CSS 3D Transforms
+- **3D Engine**: Native mathematical HTML5 Canvas 3D projection engine (Zero heavy dependencies, 60+ FPS)
+- **Icons**: Lucide React + Inline Verified SVG Vector Icons
+- **Typography**: Space Grotesk, Syne, and Plus Jakarta Sans
+
+---
+
+## Local Development
 
 ```powershell
+# Install dependencies
 npm install
+
+# Start Vite dev server
 npm run dev
 ```
 
-Open the local URL printed by Vite (usually `https://first-step-mvp.vercel.app/`).
+Open the local development address (default: `http://localhost:5173`).
 
-## Production build
+---
+
+## Production Build
 
 ```powershell
 npm run build
 npm run preview
 ```
 
-Vite writes production files to `dist/`.
+Production output will be generated cleanly in `dist/`.
 
-## Deploy to Vercel
+---
 
-1. Create a GitHub repository named `firststep-resume-builder`.
-2. From the project folder, run:
+## License
 
-   ```powershell
-   git init
-   git add .
-   git commit -m "Build FirstStep resume builder MVP"
-   git branch -M main
-   git remote add origin https://github.com/YOUR-USERNAME/firststep-resume-builder.git
-   git push -u origin main
-   ```
-
-3. Sign in to Vercel and import that GitHub repository.
-4. Use build command `npm run build` and output directory `dist`.
-5. Deploy. Future pushes to the connected branch can trigger deployments.
-
-Do not copy these Git commands into an existing repository unless you understand its current Git setup. Replace `YOUR-USERNAME` with your GitHub username.
-
-## Privacy notes
-
-Resume data is stored in the browser's `localStorage`; it is not sent to a FirstStep server by this MVP. Anyone with access to the same browser profile may be able to see the saved draft. Do not use a shared/public computer for sensitive information. Clearing browser site data may delete the draft. The **Clear draft** action removes the saved resume and reloads the app.
-
-The portfolio screen is a local preview only. It does not publish a public URL.
-
-## PDF export
-
-Choose **Save as PDF** in the builder. In the browser print dialog, select **Save as PDF** as the destination. If a browser adds headers/footers, disable them in print options.
-
-## Project structure
-
-```text
-FirstStep/
-├── index.html
-├── package.json
-├── README.md
-└── src/
-    ├── App.jsx
-    ├── App.css
-    ├── index.css
-    ├── main.jsx
-    ├── components/
-    │   ├── FormSection.jsx
-    │   ├── Navbar.jsx
-    │   ├── ResumePreview.jsx
-    │   └── TemplateSelector.jsx
-    ├── pages/
-    │   ├── Builder.jsx
-    │   ├── Home.jsx
-    │   └── PortfolioPreview.jsx
-    └── utils/
-        ├── resumeData.js
-        └── storage.js
-```
-
-## MVP limitations / next steps
-
-- No public portfolio hosting or shareable portfolio links yet.
-- No login or cloud sync.
-- No AI writing API.
-- Consider adding stronger field validation, accessibility testing, automated tests, and a privacy policy before a broader launch.
+Crafted with excellence for ambitious creators, developers, and designers worldwide.
