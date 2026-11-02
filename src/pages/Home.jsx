@@ -703,7 +703,7 @@ export default function Home({ onStart, onExplorePortfolio, onLoadSample, setTem
               <div className="footer-link-group">
                 <span className="group-title">Ecosystem</span>
                 <a
-                  href="https://github.com/sk7250gautam/FirstStep-MVP"
+                  href="https://github.com/sk7250gautam/SAKSHIMA"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="footer-external-link"
